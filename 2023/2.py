@@ -20,7 +20,7 @@ import math
 
 sumis = 0
 
-for gameno, line in enumerate(open('2.input.txt')):
+for line in open('2.input.txt'):
 	maxseen = {}
 	power = 0
 	for draw in line.split(':')[1].split(';'):
